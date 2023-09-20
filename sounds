@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds - Sounds</title>
+</head>
+<body>
+    <!-- Botão para reproduzir o som -->
+    <button onclick="playBirdSound()">Reproduzir Som do Pássaro</button>
+
+    <!-- Áudio do som do pássaro -->
+    <audio id="birdSound">
+        <source src="bird-sound.mp3" type="audio/mpeg">
+        <source src="bird-sound.ogg" type="audio/ogg">
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+
+    <script>
+        function playBirdSound() {
+            var birdSound = document.getElementById('birdSound');
+            birdSound.play();
+        }
+    </script>
+</body>
+</html>
