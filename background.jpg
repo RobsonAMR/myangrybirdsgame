@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Conteúdo do jogo aqui -->
+</body>
+</html>
+Neste exemplo:
+
+A imagem de fundo background.jpg deve estar no mesmo diretório que o arquivo HTML, ou você pode fornecer o caminho correto para a imagem no url.
+
+background-size: cover; faz com que a imagem de fundo cubra todo o elemento <body>.
+
+background-repeat: no-repeat; evita que a imagem de fundo seja repetida.
+
+background-attachment: fixed; fixa o plano de fundo para que ele não role com a página.
+
+Lembre-se de que este é apenas um exemplo simples. Para um jogo completo, você precisará de uma imagem de fundo mais complexa e outros recursos, como lógica de jogo, personagens, elementos interativos e muito mais.
+
+
+
+
+
