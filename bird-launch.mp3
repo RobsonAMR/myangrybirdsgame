@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds - Bird Launch Sound</title>
+</head>
+<body>
+    <!-- Botão para reproduzir o som de lançamento do pássaro -->
+    <button onclick="playBirdLaunchSound()">Reproduzir Som de Lançamento do Pássaro</button>
+
+    <!-- Áudio do som de lançamento do pássaro -->
+    <audio id="birdLaunchSound">
+        <source src="bird-launch.mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+
+    <script>
+        function playBirdLaunchSound() {
+            var birdLaunchSound = document.getElementById('birdLaunchSound');
+            birdLaunchSound.play();
+        }
+    </script>
+</body>
+</html>
