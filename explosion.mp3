@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds - Explosion Sound</title>
+</head>
+<body>
+    <!-- Botão para reproduzir o som de explosão -->
+    <button onclick="playExplosionSound()">Reproduzir Som de Explosão</button>
+
+    <!-- Áudio do som de explosão -->
+    <audio id="explosionSound">
+        <source src="explosion.mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+
+    <script>
+        function playExplosionSound() {
+            var explosionSound = document.getElementById('explosionSound');
+            explosionSound.play();
+        }
+    </script>
+</body>
+</html>
